@@ -3,3 +3,4 @@ function getLength(link){
     let n = link.length;
     return `The length of the URL is: ${n}`;
 }
+console.log(getLength(location.href));
